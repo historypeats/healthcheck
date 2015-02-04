@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-#	Author: historypeats <msantillana@2u.com>
+#	Author: historypeats <iam.historypeats@gmail.com>
 #	Description: This is a quick webserver/app that provides a healthcheck functionality
 #
 
@@ -10,7 +10,7 @@ from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 # GLOBAL CONFIG
 PORT = 7777
 PING_URI = '/ping'
-SERVER_NAME = '2U'
+SERVER_NAME = 'Custom Server'
 
 class webHandler(BaseHTTPRequestHandler):
 	''' This is a web handler object. 
